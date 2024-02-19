@@ -20,6 +20,17 @@
         <servlet-name>hello-you</servlet-name>
         <url-pattern>/hello-you</url-pattern>
     </servlet-mapping>
+
+
+    
+   <filter>
+      <filter-name>security-filter</filter-name>
+      <filter-class>com.hatim.app.SecurityFilter</filter-class>
+   </filter>
+   <filter-mapping>
+      <filter-name>security-filter</filter-name>
+      <url-pattern>/hello-you</url-pattern>
+   </filter-mapping>
 	
 	
 	

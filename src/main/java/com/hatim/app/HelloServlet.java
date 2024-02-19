@@ -1,4 +1,4 @@
-package com.hatim;
+package com.hatim.app;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
